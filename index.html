@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Profile Thienpahm</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+			integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="card">
+			<div class="card__img">
+				<img src="anh.jpg/anh1.jpg" alt="" />
+			</div>
+			<h2>ThienPahm</h2>
+			<p>Trader and Coder</p>
+			<div class="card__social">
+				<a target="_black" href="https://www.facebook.com/thienpham07">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a target="_black" href="https://x.com/thienpahm">
+					<i class="fab fa-x"></i>
+				
+				<a target="_black" href="https://www.instagram.com/thienpahm07/">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</div>
+			<button id="playButton">Contact me</button>
+
+           
+		</div>
+		
+		  <audio id="myAudio">
+			<source src="audio.mp3/nhac.mp3" type="audio/mp3">
+		
+		  </audio>
+		  <script>
+			const audio = document.getElementById('myAudio');
+			const playButton = document.getElementById('playButton');
+			playButton.onclick = function() {
+			  audio.play();
+			};
+		  </script>
+       
+	</body>
+</html>
